@@ -1,0 +1,117 @@
+img {
+  height: 200px;
+  width: 200px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F3ECC8;
+  color: #0D1B4C;
+  font-size: 15px;
+  line-height: 2;
+  margin: 0;
+  background-image: url("/images/background-main.jpg");
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 24px;
+  color: #0D1B4C;
+}
+
+h2 {
+  font-size: 20px;
+  color: #3F6699;
+}
+
+h3 {
+  font-size: 18px;
+  color: #3F6699;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #78C2C3;
+}
+
+.container {
+  height: auto;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 50px;
+  margin: 50px auto;
+  width: 800px;
+  background: #FEF8E6;
+  border: 1px solid white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 50px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+table {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.image-circle {
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+#shows td {
+  padding: 10px;
+}
+
+.button-red {
+  background-color: #EE2B47;
+  border-radius: 12px;
+  padding: 10px 30px;
+  color: white;
+}
+
+.button-red:hover {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+}
+
+.fab, .fas {
+  font-size: 30px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 90%;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
